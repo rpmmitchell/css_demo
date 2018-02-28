@@ -1,0 +1,181 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+
+/*This is the css for the top of the page*/
+#container {
+	width: 970px;
+}
+
+button {
+	display: inline-block;
+	height: 30px; 
+	width: 40px;
+	border-radius: 5px;
+	color: white;
+	background: steelblue;
+
+}
+input{
+	display: inline-block;
+	text-align: center;
+	height: 30px; 
+	width: 180px;
+	margin-top: 8px;
+	margin-left: 50px;
+
+}
+#header {
+	background: #264984;
+	width: 970px;
+	height: 465px;
+}
+#search_box {
+	display: inline-block;
+	margin-left: 80px;
+	height: 50px;
+	width: 300px;
+	border-radius: 10px;
+	background: #4e5054;
+	box-shadow: 2px 2px black;
+}
+#search_area {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 200px;
+	margin-top: 10px;
+	width: 400px;
+
+}
+#topleft {
+	color: white;
+}
+#topleft a{
+	color: gold;
+}
+#navbar {
+	color: white;
+	vertical-align: top;
+	width: 875px;
+	background: #598be0;
+	text-align: center;
+	border-radius: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 50px;
+	box-shadow: 2px 2px black;
+}
+.navtext {
+	font-size: 20px;
+	padding-left: 50px; 
+}
+#links {
+	text-align: center;
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+#links ul li{
+	list-style-type: none; 
+	padding-top: 5px; 
+}
+#links ul li a{
+	color: white;
+}
+.arrow {
+	color: gold;
+}
+#mainp {
+	font-size: 12px;
+	vertical-align: top;
+	display: inline-block;
+	color: white;
+	margin-top: 15px;
+	margin-left: 0px;
+	width: 600px;
+	text-align: center;
+}
+.mottoS{
+	font-size: 18px;
+	color: gold;
+	padding-top: 10px;
+	font-style: italic;
+}
+
+.mottoSLast {
+	color: white;
+	font-size: 18px;
+	padding-top: 10px;
+	font-style: italic;
+}
+	
+#topleft {
+	margin-left: 200px;
+}
+div div img{
+	display: inline-block;
+	height: 100px;
+	width: 350px;
+	margin-top: 25px;
+}
+
+/*This is the css for the middle of the page*/
+#mid {
+	background: white;
+	height: 215px;
+}
+
+.subcontent {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	border-top: 5px solid #598be0;
+	padding-top: 5px;
+	margin-top: 15px;
+	width: 350px;
+}
+.subcontent ul{
+	list-style-type: inside; 
+	list-style-type: square; 
+}
+#mid .subcontent:first-child{
+	margin-left: 125px;
+
+}
+#mid .subcontent:last-child{
+	margin-left: 50px;
+
+}
+.subcontent span{
+	color: #598be0;
+}
+
+/*This is the CSS for the bottom*/
+#bottom {
+	background: #264984;
+	height: 115px;
+}
+#text_holder{
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 50px;
+}
+.text {
+	font-size: 20px;
+	width: 970px;
+	height: 50px;
+	margin-top: 100px;
+	text-decoration: none;
+	color: rgba(255,255,255,.4);
+	padding: 20px;
+}
+.copyright {
+	font-size: 12px;
+	padding-top: 12px;
+	color: rgba(255,255,255,.4);
+}
+
